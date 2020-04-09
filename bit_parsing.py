@@ -9,7 +9,7 @@ headers = {'Accept': 'text/html, */*; q=0.01',
            'Accept-Encoding': 'gzip, deflate, br'
            }
 base_url = 'https://www.1cbit.ru/contacts/'
-api_key = '12c4884b-35c0-4bc5-9d4d-64e0d4b3c032'
+api_key = 'paste_ur_api_key'
 base_geo_url = f'https://geocode-maps.yandex.ru/1.x/?apikey={api_key}&geocode=Россия, '
 data = 'action=city-load&idcitypopup=undefined&ui_prioritet=46,47&smart_redirect=N'
 headers_url = 'https://www.1cbit.ru/bitrix/templates/.default/components/vitams/city.dropdown/city_popup/ajax.php'
